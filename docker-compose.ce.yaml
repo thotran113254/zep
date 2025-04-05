@@ -39,7 +39,7 @@ services:
     ports:
       - "5432:5432"
   graphiti:
-    image: zepai/graphiti:0.3
+    image: zepai/graphiti:latest
     ports:
       - "8003:8003"
     env_file:
